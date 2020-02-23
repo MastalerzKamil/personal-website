@@ -57,3 +57,12 @@
   border-radius: 100%;
   height: 300px;
 }
+
+.LandingPage__links {
+  display: flex;
+}
+
+.LandingPage__link {
+  height: 40px;
+  margin: 20px;
+}
