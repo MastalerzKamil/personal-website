@@ -66,3 +66,9 @@
   height: 40px;
   margin: 20px;
 }
+
+@media (max-width: 766px) {
+  .LandingPage {
+    display: none;
+  }
+}

@@ -21,7 +21,7 @@ function LandingPage() {
             <img src={githubLogo} className='LandingPage__link' alt='github' />
           </a>
           <a href='https://www.linkedin.com/in/kamil-mastalerz'>
-            <img src={linkedInLogo} className='LandingPage__link' alt='github' />
+            <img src={linkedInLogo} className='LandingPage__link' alt='linkedin' />
           </a>
         </div>
       </div>
