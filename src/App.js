@@ -1,14 +1,16 @@
 import React from 'react';
 import LandingPage from 'pages/LandingPage';
-import ResLandingPage from './pages/LandingPage/Res';
+import Skills from 'pages/Skills';
 
 import './App.css';
 
 function App() {
   return (
-    <div>
-      <ResLandingPage />
-      <LandingPage />
+    <div className='App'>
+      <div>
+        <LandingPage />
+      </div>
+      <Skills />
     </div>
   );
 }
