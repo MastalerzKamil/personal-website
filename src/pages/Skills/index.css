@@ -1,6 +1,10 @@
 .Skills {
-  background: #556E80;
-  color: #2B3740;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  background: #2B3740;
+  color: #AADBFF;
 }
 
 .Skills__title {
@@ -8,16 +12,18 @@
   font-size: 40px;
 }
 
-.Skills__elements {
+.Skills__technologies {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, max-content));
-  gap: 80px 150px;
   justify-content: center;
+  justify-items: center;
+  align-items: center;
+  gap: 80px 150px;
   margin: 30px 0;
   width: 100%;
 }
 
-.Skills_img {
+.Skills__img {
   height: 200px;
 }
 
@@ -25,4 +31,5 @@
   .Skills__img {
     height: 150px;
   }
+
 }

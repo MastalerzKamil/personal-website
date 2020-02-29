@@ -44,6 +44,11 @@
   position: absolute;
 }
 
+.LandingPage__move {
+  margin-bottom: -4px;
+  width: 100%;
+}
+
 .LandingPage__name {
   font-size: 50px;
   font-weight: bold;
