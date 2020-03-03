@@ -45,7 +45,7 @@
 }
 
 .LandingPage__move {
-  margin-bottom: -4px;
+  margin-bottom: -5px;
   width: 100%;
 }
 
@@ -78,5 +78,9 @@
   
   .LandingPage__title {
     font-size: 25px;
+  }
+
+  .LandingPage__move {
+    display: none;
   }
 }

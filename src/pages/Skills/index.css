@@ -9,7 +9,7 @@
 
 .Skills__title {
   margin: 20px;
-  font-size: 40px;
+  font-size: 60px;
 }
 
 .Skills__technologies {
@@ -27,9 +27,16 @@
   height: 200px;
 }
 
+.Skills__move {
+  width: 100%;
+}
+
 @media (max-width: 766px) {
   .Skills__img {
     height: 150px;
   }
 
+  .Skills__title {
+    font-size: 30px;
+  }
 }

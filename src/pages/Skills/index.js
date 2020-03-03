@@ -16,6 +16,18 @@ function Skills() {
         <img className='Skills__img' src={nodeLogo} alt='node' />
         <img className='Skills__img' src={dockerLogo} alt='node' />
       </div>
+      <div className='Sklls__move'>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+        >
+          <path
+            fill="#2B3740"
+            fill-opacity="1"
+            d="M0,256L1440,0L1440,0L0,0Z"
+          ></path>
+        </svg>
+      </div>
     </div>
   );
 }
