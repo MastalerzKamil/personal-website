@@ -1,4 +1,12 @@
 .Hobbies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #80A5BF;
+  color: #2B3740;
+}
+
+.Hobbies__tiles {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(600px, max-content));
   justify-content: center;
@@ -7,4 +15,67 @@
   gap: 80px 150px;
   margin: 30px 0;
   width: 100%;
+}
+
+.Hobbies__element {
+  position: relative;
+  background: #2B3740;
+}
+
+.Hobbies__img {
+  display: block;
+  width: 500px;
+  opacity: .6;
+}
+
+.Hobbies__elementOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.Hobbies__element:hover .Hobbies__elementOverlay {
+  opacity: 1;
+}
+
+.Hobbies__elementOverlay__text {
+  color: white;
+  font-size: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.Hobbies__img:hover {
+  filter: blur(5px);
+  transition: all .2s ease-in;
+}
+
+.Hobbies__move {
+  width: 100%;
+}
+
+.Hobbies__title {
+  margin: 20px;
+  font-size: 60px;
+}
+
+@media (max-width: 766px) {
+  .Hobbies__img {
+    width: 300px;
+  }
+
+  .Hobbies__elementOverlay {
+    opacity: 1;
+  }  
 }

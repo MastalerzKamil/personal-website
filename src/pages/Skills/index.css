@@ -27,10 +27,6 @@
   height: 200px;
 }
 
-.Skills__move {
-  width: 100%;
-}
-
 @media (max-width: 766px) {
   .Skills__img {
     height: 150px;
