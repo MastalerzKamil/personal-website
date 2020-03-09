@@ -40,7 +40,7 @@ function LandingPage() {
           <path
             fill="#2B3740"
             fill-opacity="1"
-            d="M0,256L1440,320L1440,320L0,320Z"
+            d="M0,256 L1440,320 L1440,320 L0,320Z"
           ></path>
         </svg>
       </div>

@@ -17,7 +17,7 @@ function Hobbies() {
           <path
             fill="#2B3740"
             fill-opacity="1"
-            d="M0,224 L1440,0L 1440,0L0,0Z"
+            d="M0,224 L1440,0L 1440,0 L0,0Z"
           ></path>
         </svg>
       </div>

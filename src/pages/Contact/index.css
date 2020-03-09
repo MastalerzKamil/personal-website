@@ -1,0 +1,28 @@
+.Contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url('../../img/handshake.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #AADBFF;
+}
+
+.Contact__section {
+  position: relative;
+  background: #2B3740;
+}
+
+.Contact__img {
+  display: block;
+  width: 100%;
+  opacity: .2;
+  z-index: 1;
+}
+
+.Contact__move {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}

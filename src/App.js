@@ -4,6 +4,7 @@ import Skills from 'pages/Skills';
 
 import './App.css';
 import Hobbies from './pages/Hobbies';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       </div>
       <Skills />
       <Hobbies />
+      <Contact />
     </div>
   );
 }
