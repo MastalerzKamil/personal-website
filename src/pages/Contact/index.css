@@ -17,6 +17,7 @@
 .Contact__img {
   display: block;
   width: 100%;
+  
   opacity: .2;
   z-index: 1;
 }
