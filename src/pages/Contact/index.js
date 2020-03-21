@@ -2,6 +2,7 @@ import React from 'react';
 import contractHandshake from 'img/handshake.jpg';
 
 import './index.css';
+import TextField from '../../components/TextField';
 
 function Contact() {
   return (
@@ -18,6 +19,7 @@ function Contact() {
               d="M0,0 L1440,224 L1440,0 L0,0Z"
             ></path>
           </svg>
+          <TextField />
         </div>
         <img
           src={contractHandshake}
