@@ -1,10 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import contractHandshake from 'img/handshake.jpg';
 
 import './index.css';
 import TextField from '../../components/TextField';
 
 function Contact() {
+  const [form, setForm]= useState({
+    name: '',
+    email: '',
+    message: ''
+  });
+
+  const handleChange = stateName => event => {
+    setForm({
+      ...form,
+      [stateName]: event.target.value
+    })
+  }
+
   return (
     <div className='Contact'>
       <div className='Contact__section'>
@@ -19,7 +32,13 @@ function Contact() {
               d="M0,0 L1440,224 L1440,0 L0,0Z"
             ></path>
           </svg>
-          <TextField />
+          <form>
+            <TextField
+              onChangeValue={handleChange}
+              value={form}
+              label='Imie'
+            />
+          </form>
         </div>
         <img
           src={contractHandshake}
