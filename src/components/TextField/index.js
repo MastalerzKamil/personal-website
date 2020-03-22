@@ -1,5 +1,5 @@
 // source: https://freefrontend.com/css-input-text/
-import React, { useState } from 'react';
+import React from 'react';
 
 import './index.css';
 

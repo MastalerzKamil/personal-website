@@ -32,13 +32,18 @@ function Contact() {
               d="M0,0 L1440,224 L1440,0 L0,0Z"
             ></path>
           </svg>
-          <form>
-            <TextField
-              onChangeValue={handleChange}
-              value={form}
-              label='Imie'
-            />
-          </form>
+          <div className='Contact__title'>
+            Write me a message
+          </div>
+          <div className='Contact__form'>
+            <form>
+              <TextField
+                onChangeValue={handleChange}
+                value={form}
+                label='Imie'
+              />
+            </form>
+          </div>
         </div>
         <img
           src={contractHandshake}

@@ -27,3 +27,25 @@
   width: 100%;
   z-index: 2;
 }
+
+.Contact__title {
+  text-align: center;
+  justify-content: center;
+  margin: 30px;
+  font-size: 60px;
+}
+
+.Contact__form {
+  display: flex;
+  margin: 20px;
+}
+
+@media (max-width: 766px) {
+  .Contact {
+    height: 100px;
+  }
+
+  .Contact__form {
+    margin: 0;
+  }
+}
